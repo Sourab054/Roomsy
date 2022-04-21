@@ -8,7 +8,7 @@ import Footer from "../../components/Footer";
 import { FaDollarSign, FaMapMarkerAlt } from "react-icons/fa";
 import { AiFillStar } from "react-icons/ai";
 import StayDetails from "../../components/StayDetails";
-import { useDataContext } from "../DataContext";
+import { useDataContext } from "../../Context/DataContext";
 import Fade from "react-reveal/Fade";
 import BottomNav from "../../components/BottomNav";
 import Link from "next/link";

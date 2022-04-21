@@ -2,7 +2,7 @@ import "../styles/globals.css";
 import ProgressBar from "@badrap/bar-of-progress";
 import Router from "next/router";
 import { ThemeProvider } from "next-themes";
-import { DataProvider } from "./DataContext";
+import { DataProvider } from "../Context/DataContext";
 import Head from "next/head";
 
 const progress = new ProgressBar({

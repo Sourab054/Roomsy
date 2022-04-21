@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import DatePicker from "react-datepicker";
 import { FiSearch } from "react-icons/fi";
 import "react-datepicker/dist/react-datepicker.css";
-import { useDataContext } from "../pages/DataContext";
+import { useDataContext } from "../Context/DataContext";
 import { useRouter } from "next/router";
 
 const StayDetails = ({ color, placeholder }) => {

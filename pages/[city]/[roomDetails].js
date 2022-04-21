@@ -15,7 +15,7 @@ import { GiWashingMachine } from "react-icons/gi";
 import Map from "../../components/Map";
 import StayDetails from "../../components/StayDetails";
 import DatePicker from "react-datepicker";
-import { useDataContext } from "../DataContext";
+import { useDataContext } from "../../Context/DataContext";
 import BottomNav from "../../components/BottomNav";
 
 const RoomDetails = ({ roomPics, roomDesc, hotelData, hotelMap }) => {
