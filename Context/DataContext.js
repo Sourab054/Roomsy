@@ -34,6 +34,6 @@ export function DataProvider({ children }) {
   return <DataContext.Provider value={value}>{children}</DataContext.Provider>;
 }
 
-export function useDataContext() {
+export default function useDataContext() {
   return useContext(DataContext);
 }
