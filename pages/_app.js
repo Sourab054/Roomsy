@@ -3,6 +3,7 @@ import ProgressBar from "@badrap/bar-of-progress";
 import Router from "next/router";
 import { ThemeProvider } from "next-themes";
 import { DataProvider } from "./DataContext";
+import Head from "next/head";
 
 const progress = new ProgressBar({
   size: 5,
@@ -19,6 +20,9 @@ function MyApp({ Component, pageProps }) {
   return (
     <DataProvider>
       <ThemeProvider enableSystem={true} attribute="class">
+        <Head>
+          <link rel="shortcut icon" href="/favicon.ico" />
+        </Head>
         <Component {...pageProps} />
       </ThemeProvider>
     </DataProvider>
