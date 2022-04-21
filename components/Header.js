@@ -14,7 +14,7 @@ import { DateRangePicker } from "react-date-range";
 import { useRouter } from "next/router";
 import { useTheme } from "next-themes";
 import { Fade } from "react-reveal";
-import { useDataContext } from "../pages/DataContext";
+import useDataContext from "../pages/DataContext";
 
 const Header = ({ placeholder }) => {
   const {

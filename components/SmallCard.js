@@ -2,7 +2,7 @@ import Image from "next/image";
 import { useRouter } from "next/router";
 import React from "react";
 import { Fade } from "react-reveal";
-import { useDataContext } from "../pages/DataContext";
+import useDataContext from "../pages/DataContext";
 
 const SmallCard = ({ img, location, distance }) => {
   const { startDate, endDate, noOfGuests } = useDataContext();
