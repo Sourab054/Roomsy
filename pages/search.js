@@ -5,7 +5,7 @@ import { AdjustmentsIcon } from "@heroicons/react/solid";
 import { useRouter } from "next/router";
 import InfoCard from "../components/InfoCard";
 import Map from "../components/Map";
-import useDataContext from "./DataContext";
+import useDataContext from "../Context/DataContext";
 
 const Search = ({ searchResults }) => {
   const router = useRouter();
